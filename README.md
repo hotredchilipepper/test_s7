@@ -66,7 +66,7 @@ num;surname;firstname;bdate
 
 Клонируем проект  
 
-    $ pip git clone link 
+    $ pip git clone https://github.com/hotredchilipepper/test_s7.git 
     
 Для создания виртуального окружения   
 
@@ -89,7 +89,7 @@ Linux:
     
 Переходим в директорию проекта  
 
-    $ cd project  
+    $ cd test_s7  
     
 Для обновления модулей программы  
 
