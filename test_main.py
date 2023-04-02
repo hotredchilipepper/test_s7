@@ -295,3 +295,8 @@ async def test_save_json(path_dir: str, filename: str, data: dict):
 def test_delete_folders_with_files():
     for name in list_namefolders:
         shutil.rmtree(PATH_TEST + name)
+
+
+# TODO Создать тестовую базу данных и аписать тесты на функции работающими с БД.
+
+# TODO Написать тесты на метод REST API "/api/v1/getFlight/{date}".
