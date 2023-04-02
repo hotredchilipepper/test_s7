@@ -63,6 +63,20 @@ if __name__ == "__main__":
     PATH_DIR_OUT = f"{abspath_proj}/src/folders/Out"
     PATH_DIR_ERR = f"{abspath_proj}/src/folders/Err"
 
+    # Создание рабочих каталогов
+    list_dir = ["folders", "logs", "tests"]
+    for name in list_dir:
+        full_path = f"{abspath_proj}/src/{name}"
+        if os.path.exists(full_path) != True:
+            os.mkdir(full_path)
+
+    # Создание подкаталогов в folders
+    list_folders_dirs = ["In", "Out", "Ok", "Err"]
+    for name in list_folders_dirs:
+        full_path = f"{abspath_proj}/src/folders/{name}"
+        if os.path.exists(full_path) != True:
+            os.mkdir(full_path)
+
     TIME_SEC = 60
     PATH_LOGS = f"{abspath_proj}/src/logs/main.log"
 
