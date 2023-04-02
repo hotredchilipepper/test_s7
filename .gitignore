@@ -1,6 +1,10 @@
 .env
 .pytest_cache
 __pycache__
-main.log
-access.log
+
 DB.sqlite
+/src/logs/*
+/src/folders/In/*
+/src/folders/Ok/*
+/src/folders/Out/*
+/src/folders/Err/*

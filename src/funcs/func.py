@@ -9,9 +9,9 @@ import os
 from src.sql import crud
 
 
-abs_path = os.path.dirname(__file__)
+abs_path = os.path.dirname(__file__)[:-5]
 
-PATH_LOGS = f"{abs_path}/logs/main.log"
+PATH_LOGS = f"{abs_path}logs/main.log"
 
 
 logging.basicConfig(
